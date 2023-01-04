@@ -3,8 +3,8 @@ import useProducts from '../hooks/useProducts';
 import { StyledProducts } from '../styles/Products';
 import { NO_RESULTS_ON_SEARCH } from '../constants';
 
-export default function Products({ searchValue }) {
-  const { products } = useProducts(searchValue);
+export default function Products({ searchValue, sortByValue }) {
+  const { products } = useProducts(searchValue, sortByValue);
 
   return (
     <StyledProducts>

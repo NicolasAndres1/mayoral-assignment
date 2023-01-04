@@ -1,3 +1,5 @@
+import PropTypes from 'prop-types';
+import { ANADIR_LABEL } from '../constants';
 import {
   StyledCard,
   Img,
@@ -7,7 +9,6 @@ import {
   DiscountLabel,
   Button,
 } from '../styles/Card';
-import PropTypes from 'prop-types';
 
 export default function Card({ img, name, price, discountPercentage, discountPrice }) {
   return (
@@ -16,14 +17,14 @@ export default function Card({ img, name, price, discountPercentage, discountPri
       <Img src={img} alt="photo" />
       <NameLabel> {name} </NameLabel>
       <PriceWrapper>
-        <PriceLabel discount={discountPercentage}> {price} € </PriceLabel>
+        <PriceLabel discountPercentage={discountPercentage}> {price} € </PriceLabel>
         {discountPercentage && (
           <DiscountLabel
-            discount={discountPercentage}
+            discountPercentage={discountPercentage}
           >{`${discountPrice} €(-${discountPercentage}%)`}</DiscountLabel>
         )}
       </PriceWrapper>
-      <Button> AÑADIR </Button>
+      <Button> {ANADIR_LABEL} </Button>
     </StyledCard>
   );
 }

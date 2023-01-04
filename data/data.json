@@ -7,6 +7,20 @@
     "discountPrice": null
   },
   {
+    "image": "https://media.mayoral.com/wcsstore/mayoral/images/catalog/mayoral/jersey-con-trenzas-para-chica_id_12-07371-048-M-4.JPG?v=20220714092803",
+    "name": "Jersey con trenzas para chica",
+    "price": 31.99,
+    "discountPercentage": 50,
+    "discountPrice": 15.99
+  },
+  {
+    "image": "https://media.mayoral.com/wcsstore/mayoral/images/catalog/mayoral/pack-2-camisetas-manga-larga-para-recien-nacido-ecofriends_id_12-02086-091-M-4.JPG?v=20220322105121",
+    "name": "Pack 2 camisetas manga larga para recién nacido ECOFRIENDS",
+    "price": 22.99,
+    "discountPercentage": null,
+    "discountPrice": null
+  },
+  {
     "image": "https://www.mayoral.com/wcsstore/mayoral/images/catalog/mayoral/polo-blocking-leon-bebe-nino_id_22-52112-700-L-4.JPG?v=20220314093241",
     "name": "Polo blocking león bebé niño",
     "price": 16.99,
@@ -35,9 +49,23 @@
     "discountPrice": 15.29
   },
   {
+    "image": "https://media.mayoral.com/wcsstore/mayoral/images/catalog/mayoral/chaqueta-americana-con-algodon-para-chico_id_23-06444-002-M-4.JPG?v=20221018152037",
+    "name": "Chaqueta americana con algodón para chico",
+    "price": 67.99,
+    "discountPercentage": null,
+    "discountPrice": null
+  },
+  {
     "image": "https://www.mayoral.com/wcsstore/mayoral/images/catalog/mayoral/polo-manga-corta-canale-ecofriends-nina_id_22-03126-076-L-4.JPG?v=20220114101848",
     "name": "Polo manga corta canalé niña",
     "price": 16.99,
+    "discountPercentage": null,
+    "discountPrice": null
+  },
+  {
+    "image": "https://media.mayoral.com/wcsstore/mayoral/images/catalog/mayoral/pantalon-slim-fit-con-algodon-sostenible-para-chico_id_23-06594-071-M-4.JPG?v=20221102093624",
+    "name": "Pantalón slim fit con algodón sostenible para chico",
+    "price": 31.99,
     "discountPercentage": null,
     "discountPrice": null
   },
@@ -68,5 +96,12 @@
     "price": 12.99,
     "discountPercentage": 45,
     "discountPrice": 7.14
+  },
+  {
+    "image": "https://media.mayoral.com/wcsstore/mayoral/images/catalog/mayoral/deportiva-con-cremallera-lateral-para-chico_id_23-47467-069-M-4.JPG?v=20220823122153",
+    "name": "Deportiva con cremallera lateral para chico",
+    "price": 52.99,
+    "discountPercentage": null,
+    "discountPrice": null
   }
 ]

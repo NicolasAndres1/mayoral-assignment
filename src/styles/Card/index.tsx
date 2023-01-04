@@ -4,20 +4,37 @@ export const StyledCard = styled.li`
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 200px;
+  width: 45%;
   height: 350px;
   border: 1px solid #0091c6;
   border-radius: 5px;
   box-shadow: 0 0 1px;
   padding: 10px 5px 25px 5px;
   margin: 10px 0;
+
+  @media screen and (min-width: 481px) {
+    height: 450px;
+  }
+
+  @media screen and (min-width: 768px) {
+    width: 33%;
+  }
+
+  @media screen and (min-width: 1024px) {
+    width: 18%;
+    box-sizing: border-box;
+  }
 `;
 
 export const Img = styled.img`
   max-width: 100%;
-  max-height: 60%;
+  height: 60%;
   border-radius: 3px;
   padding: 0;
+
+  @media (min-width: 1025px) {
+    height: 65%;
+  }
 `;
 
 export const NameLabel = styled.p`
