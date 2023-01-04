@@ -1,0 +1,72 @@
+[
+  {
+    "image": "https://www.mayoral.com/wcsstore/mayoral/images/catalog/mayoral/camiseta-rayas-bebe-nino_id_22-52002-700-L-4.JPG?v=20211210120939",
+    "name": "Camiseta rayas bebé niño",
+    "price": 12.99,
+    "discountPercentage": null,
+    "discountPrice": null
+  },
+  {
+    "image": "https://www.mayoral.com/wcsstore/mayoral/images/catalog/mayoral/polo-blocking-leon-bebe-nino_id_22-52112-700-L-4.JPG?v=20220314093241",
+    "name": "Polo blocking león bebé niño",
+    "price": 16.99,
+    "discountPercentage": 5,
+    "discountPrice": 16.14
+  },
+  {
+    "image": "https://www.mayoral.com/wcsstore/mayoral/images/catalog/mayoral/camiseta-ojos-bebe-nino_id_22-52001-700-L-4.JPG?v=20211210120939",
+    "name": "Camiseta ojos bebé niño",
+    "price": 12.99,
+    "discountPercentage": null,
+    "discountPrice": null
+  },
+  {
+    "image": "https://www.mayoral.com/wcsstore/mayoral/images/catalog/mayoral/camiseta-grafica-ecofriends-nina_id_22-03051-068-L-4.JPG?v=20211126102258",
+    "name": "Camiseta grafica ECOFRIENDS niña",
+    "price": 14.99,
+    "discountPercentage": 10,
+    "discountPrice": 13.49
+  },
+  {
+    "image": "https://www.mayoral.com/wcsstore/mayoral/images/catalog/mayoral/camiseta-manga-corta-cats-nina_id_22-03043-029-L-4.JPG?v=20211119104445",
+    "name": "Camiseta manga corta cats niña",
+    "price": 16.99,
+    "discountPercentage": 10,
+    "discountPrice": 15.29
+  },
+  {
+    "image": "https://www.mayoral.com/wcsstore/mayoral/images/catalog/mayoral/polo-manga-corta-canale-ecofriends-nina_id_22-03126-076-L-4.JPG?v=20220114101848",
+    "name": "Polo manga corta canalé niña",
+    "price": 16.99,
+    "discountPercentage": null,
+    "discountPrice": null
+  },
+  {
+    "image": "https://www.mayoral.com/wcsstore/mayoral/images/catalog/mayoral/camiseta-ecofriends-basica-manga-corta-nina_id_22-00174-057-L-4.JPG?v=20211029062608",
+    "name": "Camiseta manga corta flores niña rojo intenso",
+    "price": 15.95,
+    "discountPercentage": 15,
+    "discountPrice": 13.56
+  },
+  {
+    "image": "https://www.mayoral.com/wcsstore/mayoral/images/catalog/mayoral/camiseta-manga-corta-play-with-nino_id_22-03014-086-L-4.JPG?v=20210901051823",
+    "name": "Camiseta manga corta PLAY WITH niño",
+    "price": 13.99,
+    "discountPercentage": null,
+    "discountPrice": null
+  },
+  {
+    "image": "https://www.mayoral.com/wcsstore/mayoral/images/catalog/mayoral/polo-manga-corta-ecofriends-basico-nino_id_22-00150-070-L-4.JPG?v=20211213085622",
+    "name": "Polo manga corta ECOFRIENDS básico niño",
+    "price": 9.99,
+    "discountPercentage": null,
+    "discountPrice": null
+  },
+  {
+    "image": "https://www.mayoral.com/wcsstore/mayoral/images/catalog/mayoral/camiseta-ecofriends-manga-corta-surf-day-nino_id_22-03021-010-L-4.JPG?v=20210917064011",
+    "name": "Camiseta ECOFRIENDS manga corta surf day niño",
+    "price": 12.99,
+    "discountPercentage": 45,
+    "discountPrice": 7.14
+  }
+]
