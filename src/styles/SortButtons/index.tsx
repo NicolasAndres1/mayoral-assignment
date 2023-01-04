@@ -5,3 +5,13 @@ export const SortButtonsWrapper = styled.div`
     margin-right: 0px;
   }
 `;
+
+export const StyledButton = styled.button`
+  border: none;
+  background-color: white;
+  font-size: 32px;
+  color: #aeaeae;
+  cursor: pointer;
+  margin: 0 12px;
+  padding: 0;
+`;

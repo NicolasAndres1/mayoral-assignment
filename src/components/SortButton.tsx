@@ -1,15 +1,12 @@
-import styled from 'styled-components';
-
-const StyledButton = styled.button`
-  border: none;
-  background-color: white;
-  font-size: 32px;
-  color: #aeaeae;
-  cursor: pointer;
-  margin: 0 12px;
-  padding: 0;
-`;
+import PropTypes from 'prop-types';
+import { StyledButton } from 'styles/SortButtons';
 
 export default function SortButton({ children, type, setSortByValue }) {
   return <StyledButton onClick={() => setSortByValue(type)}> {children} </StyledButton>;
 }
+
+SortButton.propTypes = {
+  children: PropTypes.node.isRequired,
+  type: PropTypes.string,
+  setSortByValue: PropTypes.func,
+};

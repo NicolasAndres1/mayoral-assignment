@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 import Card from './Card';
 import useProducts from '../hooks/useProducts';
 import { StyledProducts } from '../styles/Products';
@@ -25,3 +26,8 @@ export default function Products({ searchValue, sortByValue }) {
     </StyledProducts>
   );
 }
+
+Products.propTypes = {
+  searchValue: PropTypes.string,
+  sortValue: PropTypes.string,
+};

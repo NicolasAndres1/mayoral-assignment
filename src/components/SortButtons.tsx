@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 import { SortButtonsWrapper } from 'styles/SortButtons';
 import SortButton from './SortButton';
 import { FaPlus, FaMinus } from 'react-icons/fa';
@@ -14,3 +15,7 @@ export default function SortButtons({ setSortByValue }) {
     </SortButtonsWrapper>
   );
 }
+
+SortButtons.propTypes = {
+  setSortByValue: PropTypes.func,
+};
