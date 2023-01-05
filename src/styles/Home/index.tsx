@@ -11,11 +11,11 @@ export const Header = styled.header`
     justify-content: space-between;
     flex-flow: row-reverse;
     align-items: center;
+    margin: 0 25px;
 
     Input {
       width: 50%;
       align-self: start;
-      margin-left: 40px;
     }
   }
 `;
