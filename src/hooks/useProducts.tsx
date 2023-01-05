@@ -1,9 +1,9 @@
 import { useEffect, useState } from 'react';
 import data from '../../data/data.json';
 import orderBy from 'lodash/orderBy';
-import Product from '../types/Product';
+import { Product, Products } from '../types';
 
-export default function useProducts(searchValue, sortByValue) {
+export default function useProducts(searchValue, sortByValue): Products {
   const [products, setProducts] = useState<Product[]>(data);
 
   useEffect(() => {

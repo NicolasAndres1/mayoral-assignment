@@ -4,7 +4,7 @@ import useProducts from '../hooks/useProducts';
 import { StyledProducts } from '../styles/Products';
 import { NO_RESULTS_ON_SEARCH } from '../constants';
 
-export default function Products({ searchValue, sortByValue }) {
+export default function Products({ searchValue, sortByValue }): JSX.Element {
   const { products } = useProducts(searchValue, sortByValue);
 
   return (

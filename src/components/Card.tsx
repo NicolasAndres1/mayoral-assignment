@@ -1,5 +1,5 @@
+import Image from 'next/image';
 import PropTypes from 'prop-types';
-import { ANADIR_LABEL } from '../constants';
 import {
   StyledCard,
   Img,
@@ -9,12 +9,12 @@ import {
   DiscountLabel,
   Button,
 } from '../styles/Card';
+import { ANADIR_LABEL } from '../constants';
 
-export default function Card({ img, name, price, discountPercentage, discountPrice }) {
+export default function Card({ img, name, price, discountPercentage, discountPrice }): JSX.Element {
   return (
-    /********************** AGREGAR COMPONENTE IMAGE DE NEXT ************************************************/
     <StyledCard>
-      <Img src={img} alt="photo" />
+      <Image loader={() => img} src={img} width={300} height={300} alt="photo" />
       <NameLabel> {name} </NameLabel>
       <PriceWrapper>
         <PriceLabel discountPercentage={discountPercentage}> {price} € </PriceLabel>

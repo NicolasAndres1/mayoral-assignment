@@ -7,8 +7,12 @@ import SortButtons from 'components/SortButtons';
 import { SEARCH_PLACEHOLDER } from '../constants';
 
 const HomePage: NextPage = () => {
+  /*
+   * Both states could be managed by a state management library
+   * thinking about bigger application
+   */
   const [searchValue, setSearchValue] = useState('');
-  const [sortByValue, setSortByValue] = useState('asc');
+  const [sortByValue, setSortByValue] = useState('');
 
   return (
     <Container>
