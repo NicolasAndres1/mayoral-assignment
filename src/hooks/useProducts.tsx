@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 import data from '../../data/data.json';
 import orderBy from 'lodash/orderBy';
 import { Product, Products } from '../types';
+import PropTypes from 'prop-types';
 
 export function useProducts(searchValue, sortByValue): Products {
   const [products, setProducts] = useState<Product[]>(data);
@@ -26,4 +27,9 @@ export function useProducts(searchValue, sortByValue): Products {
   }, [searchValue]);
 
   return { products };
+}
+
+useProducts.propTypes = {
+  searchValue: PropTypes.string,
+  sortByValue: PropTypes.string,
 }

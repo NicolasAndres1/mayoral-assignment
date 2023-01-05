@@ -2,7 +2,6 @@ import Image from 'next/image';
 import PropTypes from 'prop-types';
 import {
   StyledCard,
-  Img,
   NameLabel,
   PriceWrapper,
   PriceLabel,
@@ -10,9 +9,8 @@ import {
   Button,
 } from '../styles/Card';
 import { ANADIR_LABEL } from '../constants';
-import { Product } from 'types';
 
-export default function Card({ image, name, price, discountPercentage, discountPrice }: Product): JSX.Element {
+export default function Card({ image, name, price, discountPercentage, discountPrice }): JSX.Element {
   return (
     <StyledCard data-testid={'card'}>
       <Image unoptimized loader={() => image} src={image} width={300} height={300} alt={`producto: ${name}`} />
