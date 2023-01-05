@@ -10,16 +10,18 @@ import {
   Button,
 } from '../styles/Card';
 import { ANADIR_LABEL } from '../constants';
+import { Product } from 'types';
 
-export default function Card({ img, name, price, discountPercentage, discountPrice }): JSX.Element {
+export default function Card({ image, name, price, discountPercentage, discountPrice }: Product): JSX.Element {
   return (
-    <StyledCard>
-      <Image loader={() => img} src={img} width={300} height={300} alt="photo" />
+    <StyledCard data-testid={'card'}>
+      <Image unoptimized loader={() => image} src={image} width={300} height={300} alt={`producto: ${name}`} />
       <NameLabel> {name} </NameLabel>
-      <PriceWrapper>
-        <PriceLabel discountPercentage={discountPercentage}> {price} € </PriceLabel>
+      <PriceWrapper data-testid={'price-wrapper'}>
+        <PriceLabel data-testid={'price-label'} discountPercentage={discountPercentage}> {price} € </PriceLabel>
         {discountPercentage && (
           <DiscountLabel
+            data-testid={'discount-label'}
             discountPercentage={discountPercentage}
           >{`${discountPrice} €(-${discountPercentage}%)`}</DiscountLabel>
         )}

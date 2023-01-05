@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 import Card from './Card';
-import useProducts from '../hooks/useProducts';
+import { useProducts } from '../hooks/useProducts';
 import { StyledProducts } from '../styles/Products';
 import { NO_RESULTS_ON_SEARCH } from '../constants';
 
@@ -8,12 +8,12 @@ export default function Products({ searchValue, sortByValue }): JSX.Element {
   const { products } = useProducts(searchValue, sortByValue);
 
   return (
-    <StyledProducts>
-      {products.length ? (
+    <StyledProducts data-testid={'products'}>
+      {products?.length ? (
         products.map((prod, key) => (
-          <Card
+          <Card data-testid={'card-component'}
             key={key}
-            img={prod.image}
+            image={prod.image}
             name={prod.name}
             price={prod.price}
             discountPercentage={prod.discountPercentage}
@@ -21,7 +21,7 @@ export default function Products({ searchValue, sortByValue }): JSX.Element {
           />
         ))
       ) : (
-        <h2> {NO_RESULTS_ON_SEARCH} </h2>
+        <li> {NO_RESULTS_ON_SEARCH} </li>
       )}
     </StyledProducts>
   );

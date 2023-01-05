@@ -3,7 +3,7 @@ import data from '../../data/data.json';
 import orderBy from 'lodash/orderBy';
 import { Product, Products } from '../types';
 
-export default function useProducts(searchValue, sortByValue): Products {
+export function useProducts(searchValue, sortByValue): Products {
   const [products, setProducts] = useState<Product[]>(data);
 
   useEffect(() => {
